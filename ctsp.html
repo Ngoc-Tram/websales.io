@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/asset/grid.css">
+    <link rel="stylesheet" href="/asset/style.css">
+</head>
+
+<body>
+    <div class="grid wide container">
+        <div class="header_top row">
+            <div class="header_logo col l-3">
+                <h1>Urban Home</h1>
+            </div>
+            <div class="header_search col l-6">
+
+                <form class="search">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm">
+
+                </form>
+                <div class="header_icon col l-3">
+                    <div class="icon_search">
+
+                        <a href=""><i class="fa-solid fa-phone"></i></a>
+                        <a href="account.html"><i class="fa-solid fa-user"></i></a>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="menu grid wide">
+            <div class="menu_list row">
+                <nav class="menu_list_item col l-12">
+                    <ul class="nav">
+                        <li><a href="index.html">TRANG CHỦ</a></li>
+                        <li>
+                            <a href="product.html">SẢN PHẨM</a>
+                            <ul class="subnav">
+                                <li><a href="">Sản phẩm khuyến mãi</a></li>
+                                <li><a href="">Nội thất phòng khách</a></li>
+                                <li><a href="">Nội thất phòng ngủ</a></li>
+                                <li><a href="">Phụ kiện trang trí</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">PRODUCT VIEW</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#">LIÊN HỆ</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+        <div class="article grid wide">
+            <div class="product row">
+                <div class="product_photos col l-6">
+                    <div class="photos_min">
+                        <img src="/asset/img/s1.png" alt="">
+                    </div>
+                    <div class="photos_main">
+                        <img src="/asset/img/s1.png" alt="">
+                    </div>
+                </div>
+                <div class="product_information col l-6 ">
+                    <h1>Ấm trà inox không ghỉ</h1>
+                    <div class="details_row">
+                        <p class="sales">-29%</p>
+                        <p class="price">890,000đ</p>
+                        <p class="delete">1,2500,000đ</p>
+                    </div>
+                    <!-- Tăng giảm số lượng -->
+                    <div class="details_row">
+                        <form>
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-
+                            </div>
+                            <input type="number" id="number" value="0" />
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+
+                            </div>
+                        </form>
+                        <!-- Tăng giảm số lượng -->
+                        <a href="scart.html" class="more">THÊM VÀO GIỎ HÀNG</a>
+                        <a href="scart.html" class="buy">MUA NGAY</button></a>
+                    </div>
+
+                    <p class="describe">Mô tả</p>
+                    <p class="detail">Dòng sản phẩm xuất khẩu được sản xuất tại Nhà Máy Việt Nam theo tiêu chuẩn Châu
+                        Âu. Nguồn gốc nguyên vật liệu cũng như chất lượng, độ bền sản phẩm đã được kiểm chứng bởi các
+                        nhà nhập khẩu Âu Mỹ
+
+                        <br><br> CHẤT LIỆU<br>
+
+                        <br> Khung sườn: gỗ dầu (Việt Nam) đã xử lý mối mọt
+                        theo tiêu chuẩn xuất khẩu Châu Âu<br>
+                        Nệm mút: nhập khẩu từ Malaysia<br>
+                        Chỉ may: nhập khẩu từ Anh Quốc<br>
+                        Da/ PVC/ Vải: Da Bò nhập khẩu từ Ý/ PVC nhập khẩu từ Thái Lan/ Vải nhập khẩu từ Hàn Quốc<br>
+
+                        <br>Hướng dẫn bảo quản<br>
+
+                        <br>Tránh để đồ quá nóng hoặc quá lạnh trực tiếp lên bề mặt gỗ, hãy dùng miếng lót bên dưới
+                        <br>Sử dụng vải khô để làm sạch bề mặt gỗ ngay khi bị bẩn
+                        <br>Đối với đồ nội thất làm từ gỗ, chúng tôi khuyến nghị nên dùng sáp và xi bóng gỗ để chà sạch
+                        và làm mới ít nhất 6 tháng một lần
+                        <br>Đồ nội thất bằng gỗ sẽ có sự khác nhau về vân gỗ hoặc những tì vết tự nhiên mà không làm ảnh
+                        hưởng đến chất lượng và tính thẩm mỹ của sản phẩm
+                        <br>Chất liệu cao cấp, sử dụng lâu bền
+
+                        <br>Chân ghế được làm từ chất liệu thép mạ chrome bền đẹp, ít bị hoen gỉ qua thời gian sử dụng.
+                        5 bánh xe dưới các thanh đỡ giúp bạn dễ dàng xoay và di chuyển ghế một cách dễ dàng. Ghế có thể
+                        điều chỉnh độ cao cho phù hợp với người sử dụng nhờ bộ piston khí nén. Sản phẩm chịu được trọng
+                        lượng cao mà vẫn đảm bảo độ bền qua thời gian sử dụng.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section grid wide">
+
+            <div class="information col-12">
+                <h3>Sản phẩm mới</h3>
+                <p>Cập nhật những sản phẩm mới nhất</p>
+            </div>
+            <div class="row">
+                <div class="section_1 col l-2-4 c-6">
+                    <div class="section_item">
+                        <div class="dad"> <img src="/asset/img/s4.png" alt="">
+                            <div class="icon_sales">-12%</div>
+                        </div>
+                        <p class="title">
+                            Đèn treo sang trọng Hubert
+                        </p>
+                        <div class="details_row">
+                            <p class="price">890,000đ</p>
+                            <p class="delete">1,250,000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="section_1 col l-2-4 c-6">
+                    <div class="section_item">
+                        <a href="ctsp.html"><img src="/asset/img/s2.png" alt=""></a>
+                        <p class="title">
+                            Bàn xếp gọn nhẹ TB01
+                        </p>
+                        <div class="details_row">
+                            <p class="price">130,000đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="section_1 col l-2-4 c-6">
+                    <div class="section_item">
+                        <a href="ctsp.html"><img src="/asset/img/s3.png" alt=""></a>
+                        <p class="title">
+                            Đèn để bàn gọn nhẹ Petite
+                        </p>
+
+                        <div class="details_row">
+                            <p class="price">690,000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="section_1 col l-2-4 c-6">
+                    <div class="section_item">
+                        <img src="/asset/img/s10.png" alt="">
+                        <p class="title">
+                            Ghế phòng khách Arctander
+                        </p>
+                        <div class="details_row">
+                            <p class="price">799,000đ</p>
+                            <p class="delete">999,000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer grid wide">
+            <div class="information col l-12">
+                <h3>Hãy liên hệ với chúng tôi</h3>
+                <p>Chúng tôi sẵn sàng giúp đỡ bạn</p>
+                <div class="in4">
+                    <input type="text" placeholder="Nhập email của bạn">
+                    <button>Gửi</button>
+                </div>
+
+
+            </div>
+            <hr>
+            <div class="_footer_infor row">
+                <div class="footer_infor_left col l-6">
+                    <p>Thông tin liên hệ</p>
+                    <ul>
+                        <li>Tầng 4, tòa nhà Flemington, số 182, đường Lê Đại Hành, phường 15, quận 11,
+                        </li> Tp. Hồ Chí Minh.
+                        <li>1900.636.099</li>
+                        <li>1900.636.099</li>
+                        <li>hi@haravan.com</li>
+                    </ul>
+                </div>
+                <div class="footer_infor_right col l-6">
+                    <ul>
+                        <li>Chính sách bảo hành</li>Bảo hành 12 tháng, đổi trả 15 ngày
+                        <li>Giao hàng nhanh chống</li> Miễn phí đơn hàng trên 3 triệu
+                        <li>Hỗ trợ 24/7</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+
+        </footer>
+        <p class="end">Copyright © 2022 Urban Home. Powered by Haravan</p>
+    </div>
+</body>
+<script>
+    function increaseValue() {
+        var value = parseInt(document.getElementById('number').value, 10);
+        value = isNaN(value) ? 0 : value;
+        value++;
+        document.getElementById('number').value = value;
+    }
+
+    function decreaseValue() {
+        var value = parseInt(document.getElementById('number').value, 10);
+        value = isNaN(value) ? 0 : value;
+        value < 1 ? value = 1 : '';
+        value--;
+        document.getElementById('number').value = value;
+    }</script>
+
+</html>
